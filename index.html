@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses - Learn Anything, On Your Schedule | Udemy</title>
+    <link rel="stylesheet" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Online Courses - Learn Anything, On Your Schedule | Udemy</title>
+    <link type="image/x-icon" rel="icon" href="https://i.postimg.cc/rFfXCsQx/Untitled-2.png" /> 
+</head>
+<body>
+    <!--The Navigation_Bar of the Page Section-->
+    <!-- 
+        TODO (Big Screen): 
+            1- Announcement block (Yellow Background) (done)
+            2- Name of Website (done)
+                (act like link for the Website itself when click on it)
+            3- Categories Button (done)
+            4- Search bar with search button (done)
+                (form input field && form submit Button)
+            5- Udemy Bussiness Button (done)
+            6- Teach on Udemy Button (done)
+            7- Icon for Shopping Cart (done)
+                (Act like a Button)
+            8- Log in Button (done)
+                (Act like Block) 
+            9- Sign Up Button (done)
+                (Act like Block) 
+            10- Icon for Language Button (done)
+                (Act like Block) 
+        TODO (Small Screen):
+            1- Announcement block (Yellow Background)    
+            2- icon for Menu
+            3- Name of Website
+    -->
+    <section class="Navigation_Bar">
+        <!--For Big Screen-->
+        <div class="Nav_Big_Screen">
+            <div id="ann">
+                <button id="close_ann">Close</button>
+                <p>
+                    <b>Get Courses from E&pound;169.99 for a limited time | </b>
+                    A special offer for new students 
+                </p>
+                <p>
+                    <b>Ends in 5h 59m 17s.</b>
+                </p>
+            </div>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo-udemy.svg" alt="Udemy_Logo" id="Website_BS">
+                    </a>
+                </div>
+                <ul class="Header_Menu">
+                    <li>
+                        <a href="#Categories">
+                            Categories
+                        </a>
+                    </li>
+                    <li class="Search_bar">
+                        <form>
+                            <button type="submit" class="noborder">
+                              <i class="fa fa-search"></i>
+                              <input
+                              placeholder="Search for anything"
+                              class="noborder"
+                              required
+                            />
+                            </button>
+                        </form>
+                    </li>
+                    <li>
+                        <a href="#Udemy Bussiness">
+                            Udemy Bussiness
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Teach on Udemy">
+                            Teach on Udemy
+                        </a>
+                    </li>
+                    <li class="cart">
+                        <img src="Shopping_cart.png" alt="Shopping_cart" width="24px">
+                    </li>
+                    <li class="Login">
+                        <a href="#Log in">
+                            <button>
+                                Log in
+                            </button>
+                        </a>
+                    </li>
+                    <li class="Sign-up">
+                        <a href="#Sign Up">
+                            <button>
+                                Sign up
+                            </button>
+                        </a>
+                    </li>
+                    <li class="Language">
+                        <a href="#Language">
+                            <button>
+                                <img src="Language_Icon.png" alt="Language Button" width="20px">
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!--The Header of the Page Section-->
+    <!-- 
+        TODO (Big Screen): 
+            1- Text on the Left (done)
+            2- photo on the right (done)
+        TODO (Small Screen):
+            1- Text at the Top
+            2- photo at the Bottom
+    -->
+    <header class="Header">
+        <div class="text">
+            <h1>New to Udemy? Lucky you.</h1>
+            <p>
+                Courses start at E£169.99.Get your new-student offer befort it
+                expires.
+            </p>
+        </div>
+        <img src="alarm_Photo.png" alt="alarm photo" class="alarmphoto" width="500px">
+    </header>
+    <section class="Courses">
+        <h1>A board selection of courses</h1>
+        <p>
+            choose from 150,000 online video courses  with new additions published every month
+        </p>
+        <ul class="Topics">
+            <li class="chosen">
+                <a href="#Python">
+                    <button>Python</button> 
+                </a>
+            </li>
+            <li>
+                <a href="#Excel">
+                    <button>Excel</button> 
+                </a>
+            </li>
+            <li>
+                <a href="#Web Development">
+                    <button>Web Development</button> 
+                </a>
+            </li>
+            <li>
+                <a href="#Javascript">
+                    <button>Javascript</button> 
+                </a>
+            </li>
+            <li>
+                <a href="#Data Science">
+                    <button>Data Science</button> 
+                </a>
+            </li>
+            <li>
+                <a href="#AWS Certification">
+                    <button>AWS Certification</button> 
+                </a>
+            </li>
+            <li>
+                <a href="#Drawing">
+                    <button>Drawing</button> 
+                </a>
+            </li>
+        </ul>
+        <br><br>
+        <h2 class="marginrl">Expand your career opportunities with Python</h2>
+        <p class="marginrl">
+            Take one of Udemy’s range of Python courses and learn how to code
+            using this incredibly useful language. Its <br/> simple syntax and
+            readability makes Python perfect for Flask, Django, data science, and
+            machine learning. You’ll <br/> learn how to build everything from games to
+            sites to apps. Choose from a range of courses that will appeal to
+        </p>
+        <button type="button" class="explore1">Explore Python</button>
+        <br><br><br>
+        <div class="suggestions">
+            <article>
+              <a
+                class="course"
+                href="https://www.udemy.com/course/pythonforbeginners/"
+                ><img
+                  src="https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg"
+                  alt="pyhon"
+                />
+                <h3>Learn Python: The Complete<br/> Python Programming Course</h3>
+                <h4 class="grey">Avinash Jain, The Codex</h4>
+                <div>
+                  <span class="checked">4.4</span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half-full checked"></span>
+                  <!-- <span class="fa fa-star-o checked "></span> -->
+                  <span class="grey">(2,876) </span>
+                </div>
+                <p>
+                    <h5 class="price">E£199.99 </h5>
+                    <h5 class="old_price">E£679.99</h5>
+                </p>
+              </a>
+            </article>
+  
+            <article>
+              <a
+                class="course"
+                href="/course/learning-python-for-data-analysis-and-visualization/"
+                ><img
+                  src="https://img-c.udemycdn.com/course/240x135/396876_cc92_7.jpg"
+                  alt="pyhon"
+                />
+                <h3>Learning Python for Data<br> Analysis and Visualization</h3>
+                <h4 class="grey">Jose Portilla</h4>
+                <div>
+                  <span class="checked">4.4</span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half-full checked"></span>
+                  <!-- <span class="fa fa-star-o checked "></span> -->
+                  <span class="grey">(17.972)</span>
+                </div>
+                <p>
+                    <h5 class="price">E£269.99 </h5>
+                    <h5 class="old_price">E£1599.99</h5>
+                </p>
+              </a>
+            </article>
+  
+            <article>
+              <a
+                class="course"
+                href="/course/python-for-beginners-learn-programming-from-scratch/"
+                ><img
+                  src="https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg"
+                  alt="pyhon"
+                />
+                <h3>Python for Beginners - Learn <br/>Programming from scratch</h3>
+                <h4 class="grey">Edwin Diaz, Coding Faculty Solutions</h4>
+                <div>
+                  <span class="checked">4.4</span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half-full checked"></span>
+                  <!-- <span class="fa fa-star-o checked "></span> -->
+                  <span class="grey">(1.747)</span>
+                </div>
+                <p>
+                    <h5 class="price">E£199.99 </h5>
+                    <h5 class="old_price">E£679.99</h5>
+                </p>
+              </a>
+            </article>
+  
+            <article>
+              <a class="course" href="/course/learn-python/"
+                ><img
+                  src="https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg"
+                  alt="pyhon"
+                />
+                <h3>Learn Python: Python for <br/>Beginners</h3>
+                <h4 class="grey">Abrar Hussain</h4>
+                <div>
+                  <span class="checked">4.2</span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <!-- <span class="fa fa-star-half-full checked"></span> -->
+                  <span class="fa fa-star-o checked"></span>
+                  <span class="grey">(2.761)</span>
+                </div>
+                <p>
+                    <h5 class="price">E£199.99 </h5>
+                    <h5 class="old_price">E£319.99</h5>
+                </p>
+              </a>
+            </article>
+  
+            <article>
+              <a
+                class="course"
+                href="/course/python-beyond-the-basics-object-oriented-programming/"
+                ><img
+                  src="https://img-c.udemycdn.com/course/240x135/449532_2aa9_7.jpg"
+                  alt="pyhon"
+                />
+                <h3>Python Beyond the Basics -<br/> Object-Oriented Programming</h3>
+                <h4 class="grey">Infinite Skills</h4>
+                <div>
+                  <span class="checked">4.4</span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half-full checked"></span>
+                  <!-- <span class="fa fa-star-o checked "></span> -->
+                  <span class="grey">(2.928)</span>
+                </div>
+                <p>
+                    <h5 class="price">E£229.99 </h5>
+                    <h5 class="old_price">E£519.99</h5>
+                </p>
+              </a>
+            </article>
+          </div>
+    </section>
+</body>
+</html>
